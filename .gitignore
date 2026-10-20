@@ -1,0 +1,68 @@
+# IDEs and Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System Files
+.DS_Store
+Thumbs.db
+log/
+*.log
+
+# Java (Maven / Gradle)
+# Build outputs
+mochi-api/target/
+target/
+build/
+out/
+bin/
+
+# Gradle specific
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Crash dumps
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Vue.js / Node
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Production build outputs
+dist/
+tmp/
+.nuxt/
+.output/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.eslintcache
+.stylelintcache
+
+
+**/.DS_Store
+/out/

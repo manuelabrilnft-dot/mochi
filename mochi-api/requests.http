@@ -1,0 +1,113 @@
+POST http://localhost:8080/mochi/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "cerny",
+  "password": "rick123A"
+}
+###
+
+POST http://localhost:8080/mochi/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "peter zour",
+  "password": "rick123A"
+}
+###
+
+### UPDATED: Removed /retrieve. Parameters map directly to /activity
+GET http://localhost:8080/mochi/api/activity?startDate=2026-06-07&endDate=2026-06-07
+Content-Type: application/json
+Accept: application/json
+###
+
+### UPDATED: Removed /edit. maps to PUT on /activity
+PUT http://localhost:8080/mochi/api/activity
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 401,
+  "title": "Advanced Vinyasa Yoga",
+  "description": "Intense 30-minute flexibility, core, and deep breathing session",
+  "creator": 1,
+  "completed": true,
+  "type": 2,
+  "activityDate": "2026-05-27",
+  "startTime": "07:00:00",
+  "endTime": "07:30:00"
+}
+###
+
+### UPDATED: Removed /create. maps to POST on /activity
+POST http://localhost:8080/mochi/api/activity
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Pranay1111",
+  "description": "red card",
+  "creator": 2,
+  "completed": false,
+  "type": 2,
+  "activityDate": "2026-05-29",
+  "startTime": "20:30:00",
+  "endTime": "21:00:00"
+}
+###
+
+### UPDATED: Path matches @Path("/complete/{id}") on top of /activity
+PUT http://localhost:8080/mochi/api/activity/complete/53
+Content-Type: application/json
+Accept: application/json
+###
+
+### UPDATED: Removed /remove. Path matches @Path("/{id}") on top of /activity
+DELETE http://localhost:8080/mochi/api/activity/6
+Content-Type: application/json
+Accept: application/json
+###
+
+GET http://localhost:8080/mochi/api/achievement
+Content-Type: application/json
+Accept: application/json
+
+###
+POST http://localhost:8080/mochi/api/challenge
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Playing Golf",
+  "description": "alone or with friends",
+  "creatorId": 1,
+  "participants": ["David", "Emma", "Frank"]
+}
+
+###
+DELETE http://localhost:8080/mochi/api/challenge/4
+Content-Type: application/json
+Accept: application/json
+
+###
+PUT http://localhost:8080/mochi/api/challenge/5
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Playing Golf UPDATED",
+  "description": "alone or with friends",
+  "creatorId": 1,
+  "participants": ["David", "Emma", "Frank"]
+}
+
+###
+GET http://localhost:8080/mochi/api/challenge/5
+Accept: application/json
+
+###
+GET http://localhost:8080/mochi/api/challenge?userId=6
+Accept: application/json

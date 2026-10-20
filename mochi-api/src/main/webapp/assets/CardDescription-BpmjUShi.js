@@ -1,0 +1,1 @@
+import{F as e,G as t,N as n,lt as r,t as i,x as a}from"./utils-7ouVz1l9.js";var o={__name:`CardDescription`,props:{class:{type:[Boolean,null,String,Object,Array],required:!1,skipCheck:!0}},setup(o){let s=o;return(o,c)=>(n(),a(`div`,{"data-slot":`card-description`,class:r(t(i)(`text-muted-foreground text-sm`,s.class))},[e(o.$slots,`default`)],2))}};export{o as t};

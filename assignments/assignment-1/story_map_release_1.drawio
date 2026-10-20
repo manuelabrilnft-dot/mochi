@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="pg-storymap-r1" name="Story Map – Release 1 Only">
+    <mxGraphModel dx="4538" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" parent="1"
+          style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;"
+          value="&lt;b&gt;&lt;font style='font-size:22px;'&gt;Mochi — User Story Map&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;&lt;font style='font-size:11px;color:#555;letter-spacing:2px;'&gt;RELEASE 1  ·  CORE FOUNDATION  ·  MUST-HAVE&lt;/font&gt;"
+          vertex="1">
+          <mxGeometry x="90" y="-30" width="1900" height="52" as="geometry" />
+        </mxCell>
+
+        <!-- Activity label column -->
+        <mxCell id="act-label" parent="1"
+          style="text;html=1;strokeColor=#666;fillColor=#f0f0f0;align=center;verticalAlign=middle;rounded=1;fontSize=11;fontStyle=1;"
+          value="&lt;b&gt;User Activities&lt;/b&gt;"
+          vertex="1">
+          <mxGeometry x="0" y="30" width="85" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- ── Activity headers ── -->
+        <mxCell id="act1" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;align=center;"
+          value="&lt;b&gt;Manage Account&lt;/b&gt;"
+          vertex="1">
+          <mxGeometry x="90" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act2" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;align=center;"
+          value="&lt;b&gt;Use Calendar&lt;/b&gt;"
+          vertex="1">
+          <mxGeometry x="360" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act3" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;align=center;opacity=35;"
+          value="&lt;b&gt;Set Up Ideal Day&lt;/b&gt;&lt;br/&gt;&lt;i style='font-size:9px;color:#888;'&gt;no R1 stories&lt;/i&gt;"
+          vertex="1">
+          <mxGeometry x="630" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act4" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;align=center;"
+          value="&lt;b&gt;Track Goals&lt;/b&gt;"
+          vertex="1">
+          <mxGeometry x="900" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act5" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=12;align=center;"
+          value="&lt;b&gt;View Profile &amp; Mochi&lt;/b&gt;"
+          vertex="1">
+          <mxGeometry x="1170" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act6" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;align=center;opacity=35;"
+          value="&lt;b&gt;Compete with Friends&lt;/b&gt;&lt;br/&gt;&lt;i style='font-size:9px;color:#888;'&gt;no R1 stories&lt;/i&gt;"
+          vertex="1">
+          <mxGeometry x="1440" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="act7" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=12;align=center;opacity=35;"
+          value="&lt;b&gt;View Stats&lt;/b&gt;&lt;br/&gt;&lt;i style='font-size:9px;color:#888;'&gt;no R1 stories&lt;/i&gt;"
+          vertex="1">
+          <mxGeometry x="1710" y="30" width="260" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- ── Release 1 swim lane ── -->
+        <mxCell id="r1-bg" parent="1"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8f4fd;strokeColor=#6c8ebf;opacity=40;"
+          value=""
+          vertex="1">
+          <mxGeometry x="90" y="80" width="1880" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-label" parent="1"
+          style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;fontStyle=1;"
+          value="&lt;b&gt;Release 1&lt;/b&gt;&lt;br/&gt;Must-Have&lt;br/&gt;Core foundation"
+          vertex="1">
+          <mxGeometry x="0" y="80" width="85" height="560" as="geometry" />
+        </mxCell>
+
+        <!-- ── Story cards – Manage Account ── -->
+        <mxCell id="r1-us9a" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;"
+          value="&lt;b&gt;US9a&lt;/b&gt;&lt;br/&gt;As an end user I can&lt;br/&gt;register a new account"
+          vertex="1">
+          <mxGeometry x="100" y="95" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-us9b" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;"
+          value="&lt;b&gt;US9b&lt;/b&gt;&lt;br/&gt;As an end user I can&lt;br/&gt;log into my account"
+          vertex="1">
+          <mxGeometry x="100" y="185" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-us9c" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;align=center;"
+          value="&lt;b&gt;US9c&lt;/b&gt;&lt;br/&gt;As an end user I can&lt;br/&gt;log out of my account"
+          vertex="1">
+          <mxGeometry x="100" y="275" width="240" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- ── Story cards – Use Calendar ── -->
+        <mxCell id="r1-us1" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;"
+          value="&lt;b&gt;US1&lt;/b&gt;&lt;br/&gt;As an end user I need a&lt;br/&gt;calendar to distinguish&lt;br/&gt;different activities"
+          vertex="1">
+          <mxGeometry x="370" y="95" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-us2" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;"
+          value="&lt;b&gt;US2&lt;/b&gt;&lt;br/&gt;As an end user I can mark&lt;br/&gt;activities as 'completed'&lt;br/&gt;or not"
+          vertex="1">
+          <mxGeometry x="370" y="185" width="240" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- ── Story cards – Track Goals ── -->
+        <mxCell id="r1-us5a" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;"
+          value="&lt;b&gt;US5a&lt;/b&gt;&lt;br/&gt;As an end user I can create&lt;br/&gt;and manage global&lt;br/&gt;long-term goals"
+          vertex="1">
+          <mxGeometry x="910" y="95" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-us5b" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;"
+          value="&lt;b&gt;US5b&lt;/b&gt;&lt;br/&gt;As an end user I can set up&lt;br/&gt;to 3 daily sub-goals per&lt;br/&gt;global goal"
+          vertex="1">
+          <mxGeometry x="910" y="185" width="240" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- ── Story cards – View Profile &amp; Mochi ── -->
+        <mxCell id="r1-us4a" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;"
+          value="&lt;b&gt;US4a&lt;/b&gt;&lt;br/&gt;As an end user I have a&lt;br/&gt;profile page where I can&lt;br/&gt;view my information"
+          vertex="1">
+          <mxGeometry x="1180" y="95" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-us4b" parent="1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;"
+          value="&lt;b&gt;US4b&lt;/b&gt;&lt;br/&gt;As an end user I can edit&lt;br/&gt;my account settings and&lt;br/&gt;profile information"
+          vertex="1">
+          <mxGeometry x="1180" y="185" width="240" height="75" as="geometry" />
+        </mxCell>
+
+        <!-- ── Column dividers ── -->
+        <mxCell id="div1" edge="1" parent="1"
+          style="endArrow=none;dashed=1;strokeColor=#6c8ebf;strokeWidth=1;"
+          value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="30" as="sourcePoint" />
+            <mxPoint x="365" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="div2" edge="1" parent="1"
+          style="endArrow=none;dashed=1;strokeColor=#82b366;strokeWidth=1;"
+          value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="30" as="sourcePoint" />
+            <mxPoint x="635" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="div3" edge="1" parent="1"
+          style="endArrow=none;dashed=1;strokeColor=#82b366;strokeWidth=1;"
+          value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="30" as="sourcePoint" />
+            <mxPoint x="905" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="div4" edge="1" parent="1"
+          style="endArrow=none;dashed=1;strokeColor=#d6b656;strokeWidth=1;"
+          value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1175" y="30" as="sourcePoint" />
+            <mxPoint x="1175" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="div5" edge="1" parent="1"
+          style="endArrow=none;dashed=1;strokeColor=#b85450;strokeWidth=1;"
+          value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1445" y="30" as="sourcePoint" />
+            <mxPoint x="1445" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="div6" edge="1" parent="1"
+          style="endArrow=none;dashed=1;strokeColor=#9673a6;strokeWidth=1;"
+          value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1715" y="30" as="sourcePoint" />
+            <mxPoint x="1715" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ── Legend ── -->
+        <mxCell id="legend" parent="1"
+          style="text;html=1;strokeColor=#cccccc;fillColor=#ffffff;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;rounded=1;"
+          value="&lt;b&gt;Legend:&lt;/b&gt;  Rows = priority order (top → bottom)  ·  Columns = User Activities (Epics)  ·  Each card = one user story  ·  Faded columns = no Release 1 stories (deferred)  ·  Solid border = Must-Have"
+          vertex="1">
+          <mxGeometry x="90" y="656" width="1880" height="28" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

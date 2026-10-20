@@ -1,0 +1,51 @@
+INSERT INTO mochi_project_test4.achievement (id, title, description, type, threshold, xp) VALUES
+(1, 'First Step Forward', 'Mark your very first scheduled activity as completed.', 'Milestone', 1, 50);
+
+INSERT INTO mochi_project_test4.achievement (id, title, description, type, threshold, xp) VALUES
+(2, 'Deep Focus', 'Complete 10 study or work activities.', 'Milestone', 10, 250);
+
+INSERT INTO mochi_project_test4.achievement (id, title, description, type, threshold, xp) VALUES
+(3, 'Hyper Focus', 'Complete 50 study or work activities.', 'Epic', 50, 1000);
+
+INSERT INTO mochi_project_test4.achievement (id, title, description, type, threshold, xp) VALUES
+(4, 'Hat Trick', 'Complete all 3 of your subgoals in a single day.', 'Milestone', 1, 150);
+
+INSERT INTO mochi_project_test4.achievement (id, title, description, type, threshold, xp) VALUES
+(5, 'Goal Getter', 'Complete a total of 30 daily subgoals.', 'Milestone', 30, 400);
+
+INSERT INTO mochi_project_test4.achievement (id, title, description, type, threshold, xp) VALUES
+(6, 'Consistency is Key', 'Reach a 7-day daily goal streak.', 'Streak', 7, 500);
+
+
+INSERT INTO mochi_project_test4.person (user_id, username, password, level, streak, xp, layout, background) VALUES
+(1, 'Alice', 'creator_secure_pass', 1, 0, 0, 1, 1),
+(6, 'David', 'david_pass_2026', 1, 0, 0, 1, 1),
+(7, 'Emma', 'emma_secure_987', 1, 0, 0, 1, 1),
+(8, 'Frank', 'frank_secure_xyz', 1, 0, 0, 1, 1);
+
+INSERT INTO mochi_project_test4.challenge (id, title, description, creator_id) VALUES
+(1, 'Morning Running Streak', 'Jogging 5k every morning this week', 1),
+(2, 'Exam Prep Sprint', 'Reviewing system architecture chapters together', 6),
+(3, 'Weekend Board Game Night', 'Playing strategy games at Alices place', 7);
+
+INSERT INTO mochi_project_test4.challengeparticipation (challenge_id, user_id) VALUES
+(1, 1), (1, 6), (1, 7),
+(2, 6), (2, 8),
+(3, 7), (3, 1), (3, 8);
+
+
+
+
+INSERT INTO mochi_project_test4.timeslot (start_time, end_time) VALUES
+('09:00:00', '11:00:00'),
+('11:00:00', '12:30:00'),
+('14:00:00', '16:00:00'),
+('16:30:00', '18:30:00')
+ON CONFLICT DO NOTHING;
+
+INSERT INTO mochi_project_test4.activity (id, title, description, completed, type, creator_id, activity_date, start_time, end_time) VALUES
+(1, 'Database Design Sprint', 'Finalizing Postgres schema variations', false, 'Work', 1, '2026-06-08', '09:00:00', '11:00:00'),
+(2, 'Algorithms Review', 'Practicing tree traversals and dynamic programming', false, 'Study', 6, '2026-06-08', '11:00:00', '12:30:00'),
+(3, 'API Integration Testing', 'Wiring up the front-end components to back-end endpoints', true, 'Work', 1, '2026-06-08', '14:00:00', '16:00:00'),
+(4, 'UI/UX Mockups', 'Polishing the mobile dashboard interface layout', true, 'Work', 7, '2026-06-08', '14:00:00', '16:00:00'),
+(5, 'System Architecture Reading', 'Going over distributed systems whitepapers', false, 'Study', 6, '2026-06-08', '16:30:00', '18:30:00');

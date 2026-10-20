@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+    <Resource
+            name="jdbc/MyDB"
+            auth="Container"
+            type="javax.sql.DataSource"
+
+            factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+
+            driverClassName="org.postgresql.Driver"
+
+            url="jdbc:postgresql://bronto.ewi.utwente.nl/dab_dda2526-2b_94"
+
+            username="dab_dda2526-2b_94"
+            password="ye91o0n61SaJ4E5w"
+
+            maxTotal="20"
+            maxIdle="5"
+            maxWaitMillis="10000"/>
+
+</Context>
